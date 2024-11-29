@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.food-nav{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    
+}
+.nav_item{
+    padding: 0 4em;
+}
+.nav-link{
+    font-weight:600;
+    padding: 0 2em;
+    
+}
+.jumbotron{
+    position: relative;
+    top: 100px;
+    height: 50vh;
+    color: blue;
+    background-image: url("images/home_background.avif");
+    background-size: cover;
+}
+.jumbotron h1{
+   padding-top: 100px;
+   padding-left: 100px;
+   padding-right: 100px;
+   text-align: center;
+}
+.jumbotron p{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 2em;
+
+}
+.products{
+    position: relative;
+    top: 200px;
+}
+.history{
+    position: relative;
+    top: 250px;
+    height: 40vh;
+    width: 80%;
+    
+}
+.servicecont{
+    position: relative;
+    top: 450px;
+    left: 50px;
+}
+.contactcont{
+    position: relative;
+    top: 550px;
+    left: 30px;
+    width:80%;
+    padding-bottom: 100px;
+    
+}
+.project-footer{
+    /* position: fixed;
+    bottom: 0; */
+    width:100%;
+    height: 5%;
+}
+@media only screen and (max-width: 991px) {
+    .jumbotron p{
+    position: relative;
+    bottom: 100px;
+    }
+   .servicecont{
+    position: relative;
+    left: 2px;
+   }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .jumbotron p{
+    position: relative;
+    bottom: 100px;
+    font-size: 1em;
+    }
+   .servicecont{
+    position: relative;
+    bottom: 40px;
+    padding-top:150px;
+    left: 40px;
+   }
+  }
+
+
+  
+
+  @media only screen and (max-width:479px) {
+    .jumbotron p{
+        position: relative;
+        bottom: 350px;
+        font-size:.9em;
+        }
+   
+  }
